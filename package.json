@@ -1,6 +1,6 @@
 {
   "name": "process-bootstrap",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node.js module to help you bootstrap your `process`",
   "main": "lib/index.js",
   "scripts": {
@@ -31,7 +31,5 @@
     "ucompiler": "^3.1.8",
     "ucompiler-plugin-babel": "^3.1.1"
   },
-  "dependencies": {
-
-  }
+  "dependencies": {}
 }
