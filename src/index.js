@@ -13,7 +13,7 @@ function bootstrap(processName: string, defaultDebugKey?: string) {
   process.on('uncaughtException', function(error) {
     console.error('uncaughtException', error && error.stack)
   })
-  if (defaultDebugKey && !process.env.hasOwnProperty('DEBUG')) {
+  if (defaultDebugKey && !{}.hasOwnProperty.call(process.env, 'DEBUG')) {
     process.env.DEBUG = `${defaultDebugKey}:*`
   }
 }
