@@ -1,5 +1,7 @@
 # process-bootstrap
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/process-bootstrap.svg)](https://greenkeeper.io/)
+
 process-bootstrap is a Node.js module that does some basic process setup for you.
 
 ### Installation
